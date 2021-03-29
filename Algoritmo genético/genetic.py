@@ -31,7 +31,7 @@ def fitness(individual, target):
     reduce: reduz um vetor a um escalar, neste caso usando o operador add
     """
     sum = reduce(add, individual, 0)
-    return abs(target-sum)
+    return abs(target-sum +2)
 
 def media_fitness(pop, target):
     'Find average fitness for a population.'
